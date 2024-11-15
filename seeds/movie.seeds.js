@@ -1,6 +1,6 @@
 // To insert in "seeds/movies.seed.js"
 const mongoose = require('mongoose');
-const Movie = require('./models/Movie.model');
+const Movie = require('../models/movie.model');
 
 
 const movies = [

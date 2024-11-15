@@ -6,7 +6,7 @@ router.get('/', (req, res, next) => res.render('index'));
 
 module.exports = router;
 
-const Movie = require('.../models/Movie.model');
+const Movie = require('../models/movie.model');
 
 router.get('/movies', (req, res) => {
   Movie.find()
